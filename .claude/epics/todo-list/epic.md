@@ -4,8 +4,7 @@ status: backlog
 created: 2025-09-06T09:00:18Z
 progress: 0%
 prd: .claude/prds/todo-list.md
-github: [Will be updated when synced to GitHub]
----
+github: https://github.com/koukaijyou/claude-code-todo/issues/1---
 
 # Epic: todo-list
 
@@ -230,18 +229,18 @@ High-level task categories that will be created:
 - **Integration Issues**: shadcn/ui customization may require additional time
 
 ## Tasks Created
-- [ ] 001.md - Project Setup & Configuration (parallel: false, blocks others)
-- [ ] 002.md - TypeScript Types & Data Models (parallel: true)
-- [ ] 003.md - Zustand Store & localStorage Integration (parallel: true)
-- [ ] 004.md - Core UI Components & Layout (parallel: true)
-- [ ] 005.md - Task List with Virtual Scrolling (parallel: true, conflicts with 006)
-- [ ] 006.md - Priority System & Visual Indicators (parallel: true, conflicts with 005)
-- [ ] 007.md - Date Management & Calendar Integration (parallel: true)
-- [ ] 008.md - Search & Filter System (parallel: true)
-- [ ] 009.md - Recurring Tasks & Data Export (parallel: false, needs 007)
-- [ ] 010.md - Testing, Accessibility & Production Deployment (parallel: false, needs all)
+- [ ] #10 - Recurring Tasks & Data Export (parallel: false)
+- [ ] #11 - Testing, Accessibility & Production Deployment
+Deploy to Production (parallel: false)
+- [ ] #2 - Project Setup & Configuration (parallel: false)
+- [ ] #3 - TypeScript Types & Data Models (parallel: true)
+- [ ] #4 - Zustand Store & localStorage Integration (parallel: true)
+- [ ] #5 - Core UI Components & Layout (parallel: true)
+- [ ] #6 - Task List with Virtual Scrolling (parallel: true)
+- [ ] #7 - Priority System & Visual Indicators (parallel: true)
+- [ ] #8 - Date Management & Calendar Integration (parallel: true)
+- [ ] #9 - Search & Filter System (parallel: true)
 
-**Total tasks**: 10
-**Parallel tasks**: 7 (002, 003, 004, 005, 006, 007, 008)
-**Sequential tasks**: 3 (001, 009, 010)
-**Estimated total effort**: 22 days (4.5 weeks)
+Total tasks:       10
+Parallel tasks:        7
+Sequential tasks: 3
